@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Old Standard TT", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.8em;
+    color: #222;
+    background: #fefefe;
+}
+.container{
+    margin: 20px 100px;
+    justify-content:  center;
+}
+
+.sideNav{
+    position:fixed;
+    top: 50px;
+    bottom: 50px;
+    width: 25%;
+    
+}
+
+#mikadoLogo{
+    position: relative;
+    top: -550px;    
+    left: 60px;
+}
+
+#sideNavImg{
+  background-image: url(https://www.mikadorestaurant.com/wp-content/uploads/2017/04/menu_pic.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contentBox{
+    font-family: Inconsolata;
+    font-weight: normal;
+    font-style: normal;
+    font-size:16px;
+    width: 35%;
+    position: fixed;
+    left: 680px;
+    top: 80px;
+    
+}
+.menuDiv{
+    width:50%;
+    float:left;
+}
+
+.menuList{
+    list-style: none;
+    padding: 0;
+    
+}
+.menuList li{
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+.menuList li a:hover{
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,7,96,0.58) 0);
+    transition: background .05s !important;    
+}

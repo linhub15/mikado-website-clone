@@ -1,0 +1,62 @@
+body {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  background-image: url('https://www.mikadorestaurant.com/wp-content/uploads/2017/04/home_001.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+}
+
+.bar {
+  display: flex;
+  height: 60px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icons {
+  margin-left: auto;
+}
+
+.icon {
+  height: 30px;
+}
+
+.bg-text {
+  background-color: #14141499;
+}
+
+.card {
+  height: 350px;
+  width: 350px;
+  padding: 30px;
+}
+
+.card p {
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+
+.nav-bar {
+  list-style-type: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+span.footer-title {
+  margin-right: 40px;
+  line-height: 50px;
+}
+
+.bar.bottom {
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+}

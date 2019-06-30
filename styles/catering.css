@@ -1,0 +1,102 @@
+body{
+    font-family: 'Inconsolata';
+}
+
+p{
+    line-height:20px;
+}
+
+.menu{
+    width:15%;
+    float:left;
+}
+
+.menu-div{
+    width:250px;
+    height:500px;
+    background-color:black;
+    text-align:center;
+    color:white;
+    margin:15px;
+}
+
+.content{
+    width: 75%;
+    float:right;
+    margin: 0 15px;
+}
+
+.full-width{
+    width:100%;
+}
+
+.form-details{
+    margin: 15px 0;
+}
+
+.float-left{
+    float:left;
+    width: 50%;
+}
+
+.float-right{
+    float:right;
+    width:50%;
+}
+
+.required{
+    color: #790000;
+}
+
+.first-name-form{
+    width:45%;
+    display:inline-block;
+    margin:5px;
+}
+
+.example-menu{
+    margin: 25px 0;
+}
+
+.last-name-form{
+    width:45%;
+    display:inline-block;
+    padding:5px;
+}
+
+
+.form-text-box{
+    height:35px;
+}
+
+.message-form{
+    width:100%;
+    display:inline-block;
+    padding:5px;
+}
+
+.message-text-box{
+    height:150px;
+    width:300px;
+}
+
+.right-image{
+    margin:10px;
+}
+
+.images-gallery{
+    margin: 50px 0;
+}
+
+.images-gallery img{
+    margin: 1px;
+}
+
+.asparagus{
+    widows: 250px;
+    height:500px;
+}
+
+.form-label{
+    margin-left:5px;
+}
